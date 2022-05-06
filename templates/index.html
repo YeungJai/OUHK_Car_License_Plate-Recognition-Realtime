@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #212529;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: #737d84;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        </style>
+        </head>
+<body>
+    <ul>
+        <li><a href="default.asp"> LPR APPLICATION</a></li>
+        <li><a href="news.asp">RECORD</a></li>
+        <li><a href="contact.asp">CAMERA CAPTURE</a></li>
+        <li><a href="about.asp">IMAGE DETECTION</a></li>
+        
+        <li><a href="about.asp" style="color: #FFFFFF">READTIME DETECTION</a></li>
+      </ul>
+      
+    <h1>Realtime Detection</h1>
+    
+    <div>
+        <img src="{{ url_for('video') }}" width="50%"/>
+    </div>
+    
+</body>
+</html>
+
+
