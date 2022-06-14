@@ -4,3 +4,5 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
 <li>Support Hong Kong license plate (one&two-line).</li>
 
 ## Enviroment and package
+- Python 3.6.8
+- [Python virtual environments (venv)](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/ "Python virtual environments (venv)")
