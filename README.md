@@ -10,3 +10,6 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
 - [pytesseract](https://github.com/madmaze/pytesseract "pytesseract")
 - [matplotlib](https://matplotlib.org/ "matplotlib") 
 - [Labelimg](https://github.com/tzutalin/labelImg "Labelimg")
+
+## Data gathering and preparation
+# Label Image using LabelImg
