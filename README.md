@@ -59,5 +59,10 @@ In the source code, use the cv.dnn.readNet to read the custom model file and use
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52642596/174011657-2ca7c352-4766-48f9-a9d0-6db636f26155.png" width="640"></p>
 
-<B>The crop pure car code use `asd`
+<b>The crop pure car code use</b> `self.img[y:y + h, x:x + w]`
+Then use openCV ser the image from RGB to gray`gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)`  `gray = cv2.threshold(gray, 230, 255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]` `kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (10,10))` `thresh = cv2.morphologyEx(gray, cv2.MORPH_CLOSE, kernel)`
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174018035-ba01c521-93ec-4149-b94d-bbc833e2dd47.png" width="640"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174017999-b53bf77e-e0df-4884-8088-391e71c43d5e.png" width="640"></p>
+
 
