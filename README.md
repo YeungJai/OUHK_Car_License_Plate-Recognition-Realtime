@@ -18,7 +18,6 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
   <li>Dependence the position to do the OCR process by using the pytesseract to recognize those car codes and characters.</li>
 </ol>
 
-# Implementation
 ## Annotating Images using LabelImg
 Collect the car license plate data set of more than 150 images of each class(one & two line car plates). I found the Hong Kong license plate from Google, Flickr which is free.
 ![Picture1](https://user-images.githubusercontent.com/52642596/174001566-65481608-9a55-4c9c-b64f-627856a64d4a.jpg)
