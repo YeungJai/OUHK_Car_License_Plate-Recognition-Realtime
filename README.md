@@ -5,11 +5,13 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
 
 ## Enviroment and package
 - Python 3.6.8
+- [Labelimg](https://github.com/tzutalin/labelImg "Labelimg")
 - [Python virtual environments (venv)](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/ "Python virtual environments (venv)")
 - [OpenCV](https://github.com/skvark/opencv-python "OpenCV")
 - [pytesseract](https://github.com/madmaze/pytesseract "pytesseract")
 - [matplotlib](https://matplotlib.org/ "matplotlib") 
-- [Labelimg](https://github.com/tzutalin/labelImg "Labelimg")
+
 
 ## Data gathering and preparation
+<ul>Model training</ul>
 # Label Image using LabelImg
