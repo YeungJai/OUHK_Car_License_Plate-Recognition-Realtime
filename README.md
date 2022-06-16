@@ -21,6 +21,9 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
 ## Annotating Images using LabelImg
 Collect the car license plate data set of more than 150 images of each class(one & two line car plates). I found the Hong Kong license plate from Google, Flickr which is free.
 ![Picture1](https://user-images.githubusercontent.com/52642596/174001566-65481608-9a55-4c9c-b64f-627856a64d4a.jpg)
+
+The labeling IMG software will save a file within the classes containing the boxes for each class. to one of its image classes to save the list class.txt
+
 In yolov3, the values are fed into the system which has a specified format and the data is in txt format which contains the classes and some values. These values look like below. 
 The order of yolo format txt files follows class, x, y, w, h 
 <li>x = Absolute x / width of total image</li>
