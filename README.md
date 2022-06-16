@@ -35,8 +35,7 @@ The order of yolo format txt files follows class, x, y, w, h
 Step 1, in a new colab notebook go to Runtime Change runtime type, and select GPU
 ![image](https://user-images.githubusercontent.com/52642596/174005713-8c7bf584-2153-466f-b728-64dbd4708dbe.png)
 
-Step 2 Mount Google Drive
-In Google Drive, create a backup folder. I’ve named mine yolo-license-plates. That’s where model weights and configuration will get stored.
+Step 2 Mount Google Drive, In Google Drive, create a backup folder. I’ve named mine yolo-license-plates. That’s where model weights and configuration will get stored.
 
 In the first cell, execute the following code to mount Google Drive:
 ```bash
@@ -45,4 +44,11 @@ drive.mount('/content/gdrive')
 
 !ln -s /content/gdrive/My\ Drive/ /mydrive
 ```
+Step 3 Download and configure Darknet,Darknet is an open-source neural network framework that features a YOLO object detection system. To download it, execute this line from a code cell:
+```bash
+!git clone https://github.com/AlexeyAB/darknet
+```
+Step 4 Configure settings files,To know how to set up the YOLO configuration file, you need to know how many classes there are. Next, you need to calculate the number of batches and the number of filters. Here are the formulas:
 
+<li>Batches = number of classes * 2000</li>
+<li>Filters = (number of classes + 5) * 3</li>
