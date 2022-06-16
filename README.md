@@ -79,4 +79,5 @@ Lastly use flask to build the front-end web page
 
 ![image](https://user-images.githubusercontent.com/52642596/174022625-605c50b2-4671-44b0-b241-90bd8405d8ff.png)
 
-## End
+## Reference
+https://towardsdatascience.com/how-to-detect-license-plates-with-python-and-yolo-8842aa6d25f7
