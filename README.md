@@ -71,8 +71,12 @@ Getting the height and wegith `half = h//2`&`half2 = w//2` `img[:,half]`
 <p align="center"><img src="https://user-images.githubusercontent.com/52642596/174020908-6a7ec907-d8de-4511-832a-07f4674f1f89.png" width="300 height="150"></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/52642596/174020924-dd62cb26-09d0-422b-87a4-95cde40efae3.png" width="300 height="150"></p>
 
-
-Lastly use the pytesseract to do the OCR. Set the config that means here is the pytesseract OCR white list for each characters.`custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNPQRSTUVWXYZ1234567890 --psm 7'`
+Second, use the pytesseract to do the OCR. Set the config that means here is the pytesseract OCR white list for each characters.`custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNPQRSTUVWXYZ1234567890 --psm 7'`
 `text = pytesseract.image_to_string(top, config=custom_config)`
 `text2 = pytesseract.image_to_string(bottom, config=custom_config)`
+
+Lastly use flask to build the front-end web page
+
+![image](https://user-images.githubusercontent.com/52642596/174022625-605c50b2-4671-44b0-b241-90bd8405d8ff.png)
+
 
