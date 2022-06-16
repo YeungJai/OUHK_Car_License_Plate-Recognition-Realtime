@@ -33,7 +33,7 @@ The order of yolo format txt files follows class, x, y, w, h
 
 ## Model training
 Step 1, in a new colab notebook go to Runtime Change runtime type, and select GPU
-![image](https://user-images.githubusercontent.com/52642596/174005713-8c7bf584-2153-466f-b728-64dbd4708dbe.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174005713-8c7bf584-2153-466f-b728-64dbd4708dbe.png"></p>
 
 Step 2 Mount Google Drive, In Google Drive, create a backup folder. I’ve named mine yolo-license-plates. That’s where model weights and configuration will get stored.
 
