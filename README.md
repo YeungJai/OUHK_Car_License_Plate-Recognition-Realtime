@@ -55,7 +55,8 @@ Step 4 Configure settings files,To know how to set up the YOLO configuration fil
 
 ### Custom YOLOv3 Model Example
 In the source code, use the cv.dnn.readNet to read the custom model file and use detection program to find the license plate detected position(x,y,w,h)
-<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174008789-20cd7a71-b161-4034-8a2f-de72586133b9.jpg" width="640" height="550"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174013294-1fd06be3-61b5-4382-b333-d88162574fbe.png" width="640"></p>
+
 <p align="center"><img src="https://user-images.githubusercontent.com/52642596/174011657-2ca7c352-4766-48f9-a9d0-6db636f26155.png" width="640"></p>
 
 
