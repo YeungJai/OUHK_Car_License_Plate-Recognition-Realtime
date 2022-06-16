@@ -67,8 +67,9 @@ Then use openCV ser the image from RGB to gray`gray = cv2.cvtColor(roi, cv2.COLO
 
 For the twoline car plate the pytesseract can't detect two row characters so that need to use cut at half use
 Getting the height and wegith `half = h//2`&`half2 = w//2` `img[:,half]`
-![image](https://user-images.githubusercontent.com/52642596/174020908-6a7ec907-d8de-4511-832a-07f4674f1f89.png)
-![image](https://user-images.githubusercontent.com/52642596/174020924-dd62cb26-09d0-422b-87a4-95cde40efae3.png)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174020908-6a7ec907-d8de-4511-832a-07f4674f1f89.png" width="300 height="150"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52642596/174020924-dd62cb26-09d0-422b-87a4-95cde40efae3.png" width="300 height="150"></p>
 
 
 Lastly use the pytesseract to do the OCR. Set the config that means here is the pytesseract OCR white list for each characters.`custom_config = r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNPQRSTUVWXYZ1234567890 --psm 7'`
