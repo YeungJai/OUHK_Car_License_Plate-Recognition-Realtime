@@ -10,6 +10,7 @@
 - [OpenCV](https://github.com/skvark/opencv-python "OpenCV")
 - [pytesseract](https://github.com/madmaze/pytesseract "pytesseract")
 - [matplotlib](https://matplotlib.org/ "matplotlib") 
+- [flask](https://flask.palletsprojects.com/en/2.1.x/ "flask")
 
 ## Project idea
 <ol>
