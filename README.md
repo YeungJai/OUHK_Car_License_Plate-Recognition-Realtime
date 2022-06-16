@@ -13,5 +13,7 @@ Car License Plate numbers and characters Recognition by YOLOv3 and Pytesseract
 
 
 ## Data gathering and preparation
-<ol>Model training</ol>
+<ol>
+  <li>Model training</li>
+</ol>
 # Label Image using LabelImg
