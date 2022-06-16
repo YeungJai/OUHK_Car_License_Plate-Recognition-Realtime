@@ -59,5 +59,5 @@ In the source code, use the cv.dnn.readNet to read the custom model file and use
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52642596/174011657-2ca7c352-4766-48f9-a9d0-6db636f26155.png" width="640"></p>
 
-#### The crop pure car code use `asd`
+<B>The crop pure car code use `asd`
 
